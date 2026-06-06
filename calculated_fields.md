@@ -1,4 +1,4 @@
-# 🧮 Calculated Fields — SaaS Revenue (Tableau)
+# Calculated Fields - SaaS Revenue (Tableau)
 
 ---
 
@@ -14,7 +14,7 @@ SUM([Revenue Amount])
 
 ---
 
-## 2. `ARPPU` — Average Revenue Per Paying User
+## 2. `ARPPU` - Average Revenue Per Paying User
 
 ```
 [Total Revenue] / [Paid Users]
@@ -26,7 +26,7 @@ SUM([Revenue Amount])
 
 ---
 
-## 3. `New MRR` — New Monthly Recurring Revenue
+## 3. `New MRR` - New Monthly Recurring Revenue
 
 ```
 IF DATETRUNC('month', [Payment Date]) = DATETRUNC('month', [first payment date])
@@ -36,11 +36,11 @@ END
 
 **What it does:** Returns the revenue amount only for a user's very first payment month. If the payment was made in any subsequent month, the field returns NULL.
 
-**Why it's used:** Isolates revenue coming from brand-new customers only (not renewals or expansions). This is the standard SaaS definition of New MRR — money from customers who just started paying.
+**Why it's used:** Isolates revenue coming from brand-new customers only (not renewals or expansions). This is the standard SaaS definition of New MRR - money from customers who just started paying.
 
 **Logic breakdown:**
-- `DATETRUNC('month', [Payment Date])` — truncates the transaction date to the first day of its month
-- `DATETRUNC('month', [first payment date])` — truncates the user's first-ever payment to the first day of that month
+- `DATETRUNC('month', [Payment Date])` - truncates the transaction date to the first day of its month
+- `DATETRUNC('month', [first payment date])` - truncates the user's first-ever payment to the first day of that month
 - If both months match → it's a new customer payment → return the revenue
 - If they don't match → it's a returning customer → return NULL
 
