@@ -1,4 +1,4 @@
-# Calculated Fields - SaaS Revenue (Tableau)
+# Calculated Fields - SaaS Revenue
 
 ---
 
