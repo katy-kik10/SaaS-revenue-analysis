@@ -65,7 +65,7 @@ Built a cohort table tracking revenue from each monthly acquisition cohort acros
 ## 📊 Dashboard
 
 🔗 **[View Interactive Dashboard on Tableau Public](https://public.tableau.com/app/profile/kateryna.kiktenko/viz/SaaSRevenue_17799756851350/Dashboard2)**
-<img width="668" height="536" alt="image" src="https://github.com/user-attachments/assets/6e84aab6-c436-46b8-81cc-e634848ab9ca" />
+<img width="999" height="799" alt="SaaS Revenue" src="https://github.com/user-attachments/assets/1096d919-6309-4a9c-81f0-1942580f5b40" />
 
 ### Worksheets
 
@@ -88,7 +88,7 @@ Built a cohort table tracking revenue from each monthly acquisition cohort acros
 |---|---|
 | **SaaS Revenue & Analytics Dashboard** | Product Revenue, Revenue by Geo & Product, Revenue by Location, Product Revenue Dynamics, Monthly ARPPU & Users |
 | **SaaS Revenue & Cohort Performance** | New MRR, Total Revenue Dynamics, Revenue Cohort Table |
-<img width="666" height="534" alt="image" src="https://github.com/user-attachments/assets/e41bc59a-de44-43db-a501-6c18eaaab8c4" />
+<img width="999" height="799" alt="SaaS Revenue   Cohort Performance" src="https://github.com/user-attachments/assets/399c57d6-c239-4035-b586-5bdf6489b469" />
 
 ---
 
